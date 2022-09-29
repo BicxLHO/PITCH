@@ -1,0 +1,160 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: "Poppins", sans-serif;
+    background-color: #ffedd5;
+
+    }
+
+
+
+
+nav
+{
+display: block;
+height: 100px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+box-shadow: 1px 1px 1px 1px black;
+margin: auto auto;
+z-index: 5;
+
+}
+
+.navbar
+{
+    position: relative;
+    text-align: right;
+}
+.link
+{
+    display: inline-block;
+    padding-right: 100px;
+    text-decoration: none;  
+    color: black;
+    font-size: 20pt;
+    font-family: Arial;
+    margin-top: 25pt;
+    transition: 0.5s ease-in-out;
+    font-family: "Poppins", sans-serif;
+}
+
+#link1:hover
+{
+    font-size: 25pt;
+}
+#link2:hover
+{
+    font-size: 25pt;
+}
+#link3:hover
+{
+    font-size: 25pt;
+}
+#link4:hover
+{
+    font-size: 25pt;
+}
+
+.logo
+{
+    float: left;
+    position: relative;
+    text-decoration: none;  
+    color: black;
+    font-size: 20pt;
+    font-family: Arial;
+    margin-top: 25pt;
+    transition: 0.3s all ease-in-out;
+    right: -20px;
+    padding-right: 50px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+#slider {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+#slider img{
+    opacity: 0;
+    margin-top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 740px;
+    object-fit: cover;
+    transition: opacity 800ms;
+    z-index: 0;
+    border-bottom: WHITE;
+  border-style: outset;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    padding-right: 150px;
+    margin: 20px;
+    margin-top: 150px;
+    height: 300px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    z-index: 3;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 7px 7px 13px 0px black;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+   
+  .image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+  }
+  .blue {
+    border-left: 3px solid #afafaf;
+  }
+   
+  .green {
+    border-left: 3px solid #aa6a36;
+  }
+   
+  .red {
+    border-left: 3px solid #c0b629;
+  }
+
+  h1
+  {
+    text-align: center;
+    margin-top: -800px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px white;
+    font-size: 30pt;
+    z-index: 2;
+  }
